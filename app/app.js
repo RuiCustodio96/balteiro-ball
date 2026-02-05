@@ -1,4 +1,4 @@
-fetch("jogos.json")
+fetch("app/jogos.json")
   .then(res => res.json())
   .then(data => {
     renderTeams(calcTeams(data.jogos));
