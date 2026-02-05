@@ -4,22 +4,93 @@
       "data": "2026-02-03",
       "branco": 15,
       "preto": 9
+    },
+    {
+      "data": "2026-02-10",
+      "branco": 20,
+      "preto": 18
     }
   ],
   "presencas": [
-    { "data": "2026-02-03", "jogador": "Custódio", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Ângelo", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Diogo (amigo Ângelo)", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Lau", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Gonçalo V", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Gonçalo", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Coutinho", "equipa": "Branco" },
-    { "data": "2026-02-03", "jogador": "Ph", "equipa": "Preto" },
-    { "data": "2026-02-03", "jogador": "Steven", "equipa": "Preto" },
-    { "data": "2026-02-03", "jogador": "André", "equipa": "Preto" },
-    { "data": "2026-02-03", "jogador": "Ayoub", "equipa": "Preto" },
-    { "data": "2026-02-03", "jogador": "Simão", "equipa": "Preto" },
-    { "data": "2026-02-03", "jogador": "Rodrigo (amigo Steven)", "equipa": "Preto" },
-    { "data": "2026-02-03", "jogador": "Silva", "equipa": "Preto" }
+    {
+      "data": "2026-02-03",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Ângelo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Diogo (amigo Ângelo)",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Gonçalo V",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Gonçalo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Coutinho",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Ph",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Steven",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "André",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Ayoub",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Rodrigo (amigo Steven)",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-03",
+      "jogador": "Silva",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-10",
+      "jogador": "Teste",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-10",
+      "jogador": "Teste1",
+      "equipa": "Preto"
+    }
   ]
 }
