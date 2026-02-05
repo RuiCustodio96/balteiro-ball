@@ -1,0 +1,23 @@
+{
+  "jogos": [
+    {
+      "data": "2026-02-01",
+      "branco": 5,
+      "preto": 3
+    },
+    {
+      "data": "2026-02-08",
+      "branco": 2,
+      "preto": 2
+    }
+  ],
+  "presencas": [
+    { "data": "2026-02-01", "jogador": "João", "equipa": "Branco" },
+    { "data": "2026-02-01", "jogador": "Pedro", "equipa": "Branco" },
+    { "data": "2026-02-01", "jogador": "Miguel", "equipa": "Preto" },
+
+    { "data": "2026-02-08", "jogador": "João", "equipa": "Preto" },
+    { "data": "2026-02-08", "jogador": "Pedro", "equipa": "Branco" },
+    { "data": "2026-02-08", "jogador": "Miguel", "equipa": "Preto" }
+  ]
+}
