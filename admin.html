@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Admin</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, select, button { margin: 5px 0; }
+    textarea { width: 100%; height: 300px; }
+  </style>
+</head>
+<body>
+
+<h1>🔐 Painel Admin</h1>
+
+<div id="login">
+  <p>Acesso</p>
+  <input type="password" id="access">
+  <button onclick="login()">Entrar</button>
+</div>
+
+<div id="panel" style="display:none;">
+  <h2>Novo Jogo</h2>
+
+  <label>Data</label><br>
+  <input type="date" id="data"><br>
+
+  <label>Golos Branco</label><br>
+  <input type="number" id="branco"><br>
+
+  <label>Golos Preto</label><br>
+  <input type="number" id="preto"><br>
+
+  <h3>Jogadores</h3>
+  <textarea id="jogadores" placeholder="Ex:
+João,Branco
+Pedro,Branco
+Miguel,Preto"></textarea>
+
+  <br><button onclick="gerarJSON()">Gerar JSON</button>
+
+  <h3>JSON Atualizado</h3>
+  <textarea id="output"></textarea>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
