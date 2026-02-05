@@ -4,8 +4,7 @@ const GITHUB = {
   owner: "RuiCustodio96",
   repo: "balteiro-ball",
   path: "app/jogos.json",
-  branch: "main",
-  token: "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"
+  branch: "main"
 };
 let GITHUB_TOKEN = null;
 
@@ -77,7 +76,7 @@ async function commitJSON(json) {
   const putRes = await fetch(url, {
     method: "PUT",
     headers: {
-      Authorization: `Bearer ${GITHUB.token}`,
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
       Accept: "application/vnd.github+json",
       "Content-Type": "application/json"
     },
