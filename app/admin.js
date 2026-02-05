@@ -7,12 +7,18 @@ const GITHUB = {
   branch: "main",
   token: "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"
 };
+let GITHUB_TOKEN = null;
+
+function setToken() {
+  GITHUB_TOKEN = prompt("Token GitHub:");
+}
 
 async function login() {
   const nif = document.getElementById("access").value;
   const hash = await sha256(nif);
 
   if (hash === HASH_NIF) {
+    setToken();
     document.getElementById("login").style.display = "none";
     document.getElementById("panel").style.display = "block";
   } else {
