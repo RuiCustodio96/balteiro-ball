@@ -56,27 +56,46 @@ async function gerarJSON() {
    commitJSON(json);
 }
 async function commitJSON(json) {
-  const api = `https://api.github.com/repos/${GITHUB.owner}/${GITHUB.repo}/contents/${GITHUB.path}`;
+  const url = `https://api.github.com/repos/${GITHUB.owner}/${GITHUB.repo}/contents/${GITHUB.path}`;
 
-  // 1. obter SHA atual
-  const file = await fetch(api, {
-    headers: { Authorization: `token ${GITHUB.token}` }
-  }).then(r => r.json());
+  // GET ficheiro atual
+  const fileRes = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${GITHUB.token}`,
+      Accept: "application/vnd.github+json"
+    }
+  });
 
-  // 2. commit novo conteúdo
-  await fetch(api, {
+  if (!fileRes.ok) {
+    const err = await fileRes.text();
+    console.error(err);
+    alert("Erro ao obter ficheiro");
+    return;
+  }
+
+  const file = await fileRes.json();
+
+  // PUT novo conteúdo
+  const putRes = await fetch(url, {
     method: "PUT",
     headers: {
-      Authorization: `token ${GITHUB.token}`,
+      Authorization: `Bearer ${GITHUB.token}`,
+      Accept: "application/vnd.github+json",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      message: `Atualização jogo ${new Date().toISOString().slice(0,10)}`,
+      message: "Atualização jogos",
       content: btoa(unescape(encodeURIComponent(JSON.stringify(json, null, 2)))),
       sha: file.sha,
       branch: GITHUB.branch
     })
   });
 
-  alert("Jogo publicado com sucesso!");
+  if (!putRes.ok) {
+    console.error(await putRes.text());
+    alert("Erro no commit");
+    return;
+  }
+
+  alert("Commit feito com sucesso!");
 }
