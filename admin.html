@@ -4,9 +4,87 @@
   <meta charset="UTF-8">
   <title>Painel Admin</title>
   <style>
-    body { font-family: Arial; padding: 20px; }
-    input, select, button { margin: 5px 0; }
-    textarea { width: 100%; height: 300px; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2a5d34;
+    }
+
+    h2, h3 {
+      color: #2a5d34;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-weight: 600;
+      margin-top: 10px;
+      display: block;
+    }
+
+    input, select, button, textarea {
+      padding: 8px 10px;
+      font-size: 1em;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #2a5d34;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.3s;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #1f4325;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    /* Containers para os jogadores */
+    #jogadores-box {
+      display: flex;
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .team-box {
+      flex: 1;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 8px;
+      min-height: 150px;
+    }
+
+    .team-box h4 {
+      margin-top: 0;
+      color: #2a5d34;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+      border-bottom: 1px solid #2a5d34;
+      padding-bottom: 5px;
+    }
+
+    #output {
+      height: 200px;
+    }
   </style>
 </head>
 <body>
@@ -22,25 +100,33 @@
 <div id="panel" style="display:none;">
   <h2>Novo Jogo</h2>
 
-  <label>Data</label><br>
-  <input type="date" id="data"><br>
+  <label>Data</label>
+  <input type="date" id="data">
 
-  <label>Golos Branco</label><br>
-  <input type="number" id="branco"><br>
+  <label>Golos Branco</label>
+  <input type="number" id="branco-golos">
 
-  <label>Golos Preto</label><br>
-  <input type="number" id="preto"><br>
+  <label>Golos Preto</label>
+  <input type="number" id="preto-golos">
 
   <h3>Jogadores</h3>
-  <textarea id="jogadores" placeholder="Ex:
-João,Branco
-Pedro,Branco
-Miguel,Preto"></textarea>
+  <div id="jogadores-box">
+    <div class="team-box">
+      <h4>Equipa Branco</h4>
+      <textarea id="branco" placeholder="Escreve um jogador por linha"></textarea>
+    </div>
+    <div class="team-box">
+      <h4>Equipa Preto</h4>
+      <textarea id="preto" placeholder="Escreve um jogador por linha"></textarea>
+    </div>
+  </div>
 
-  <br><button onclick="gerarJSON()">Gerar JSON</button>
+  <button onclick="gerarJSON()">Gerar JSON</button>
 
   <h3>JSON Atualizado</h3>
   <textarea id="output"></textarea>
+  
+  <button onclick="commitJSON()">Commit JSON</button>
 </div>
 
 <script src="app/admin.js"></script>

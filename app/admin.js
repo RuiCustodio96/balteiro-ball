@@ -34,31 +34,35 @@ async function sha256(text) {
 }
 
 async function gerarJSON() {
+  // Carrega o JSON existente
   const res = await fetch("app/jogos.json");
   const json = await res.json();
 
+  // Dados do novo jogo
   const data = document.getElementById("data").value;
-  const branco = Number(document.getElementById("branco").value);
-  const preto = Number(document.getElementById("preto").value);
-  const linhas = document.getElementById("jogadores").value.split("\n");
+  const golosBranco = Number(document.getElementById("branco-golos").value);
+  const golosPreto = Number(document.getElementById("preto-golos").value);
 
-  json.jogos.push({ data, branco, preto });
+  // Adiciona o novo jogo
+  json.jogos.push({ data, branco: golosBranco, preto: golosPreto });
 
-  linhas.forEach(l => {
-    const [jogador, equipa] = l.split(",");
-    if (!jogador || !equipa) return;
-
-    json.presencas.push({
-      data,
-      jogador: jogador.trim(),
-      equipa: equipa.trim()
+  // Função auxiliar para adicionar jogadores à equipa
+  function adicionarJogadores(textareaId, equipa) {
+    const linhas = document.getElementById(textareaId).value.split("\n");
+    linhas.forEach(nome => {
+      const jogador = nome.trim();
+      if (!jogador) return; // ignora linhas vazias
+      json.presencas.push({ data, jogador, equipa });
     });
-  });
+  }
 
-  document.getElementById("output").value =
-    JSON.stringify(json, null, 2);
+  // Adiciona jogadores de cada equipa
+  adicionarJogadores("branco", "Branco");
+  adicionarJogadores("preto", "Preto");
 
-   commitJSON(json);
+  // Mostra o JSON atualizado
+  document.getElementById("output").value = JSON.stringify(json, null, 2);
+
 }
 async function commitJSON(json) {
   const url = "https://api.github.com/repos/RuiCustodio96/balteiro-ball/contents/app/jogos.json";
@@ -96,3 +100,4 @@ async function commitJSON(json) {
 
   alert("Commit feito com sucesso!");
 }
+
