@@ -4,11 +4,6 @@
       "data": "2026-02-03",
       "branco": 15,
       "preto": 9
-    },
-    {
-      "data": "2026-02-10",
-      "branco": 20,
-      "preto": 18
     }
   ],
   "presencas": [
@@ -80,16 +75,6 @@
     {
       "data": "2026-02-03",
       "jogador": "Silva",
-      "equipa": "Preto"
-    },
-    {
-      "data": "2026-02-10",
-      "jogador": "Teste",
-      "equipa": "Branco"
-    },
-    {
-      "data": "2026-02-10",
-      "jogador": "Teste1",
       "equipa": "Preto"
     }
   ]
