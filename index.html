@@ -3,11 +3,77 @@
   <meta charset="UTF-8" />
   <title>Balteiro Ball</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    table { border-collapse: collapse; margin-bottom: 30px; }
-    th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: center; }
-    th { background: #f4f4f4; }
-  </style>
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* fundo suave */
+    color: #333;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a5d34; /* verde relvado */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+    border-bottom: 2px solid #2a5d34;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #2a5d34; /* verde relvado */
+    color: #fff;
+    font-weight: 600;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tbody tr:hover {
+    background-color: #e0f2e9; /* leve destaque verde */
+    transition: background-color 0.3s;
+  }
+
+  td {
+    font-size: 1em;
+    color: #333;
+  }
+</style>
+
+
 </head>
 <body>
 
@@ -18,13 +84,13 @@
     <thead>
       <tr>
         <th>Equipa</th>
-        <th>J</th>
-        <th>V</th>
-        <th>E</th>
-        <th>D</th>
-        <th>GM</th>
-        <th>GS</th>
-        <th>P</th>
+        <th>Jogos</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Golos Marcados</th>
+        <th>Golos Sofridos</th>
+        <th>Pontos</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -36,16 +102,17 @@
       <tr>
         <th>#</th>
         <th>Jogador</th>
-        <th>J</th>
-        <th>V</th>
-        <th>E</th>
-        <th>D</th>
-        <th>P</th>
+        <th>Jogos</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
 
   <script src="app/app.js"></script>
+  <script id="dados" type="application/json" src="app/jogos.json"></script>
 </body>
 </html>
