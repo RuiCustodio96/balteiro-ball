@@ -5,7 +5,7 @@ const GITHUB = {
   repo: "balteiro-ball",
   path: "app/jogos.json",
   branch: "main",
-  token: "ghp_xxxxxxxxxxxxxxxxx"
+  token: "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"
 };
 
 async function login() {
@@ -52,4 +52,31 @@ async function gerarJSON() {
 
   document.getElementById("output").value =
     JSON.stringify(json, null, 2);
+
+   commitJSON(JSON.stringify(json, null, 2));
+}
+async function commitJSON(json) {
+  const api = `https://api.github.com/repos/${GITHUB.owner}/${GITHUB.repo}/contents/${GITHUB.path}`;
+
+  // 1. obter SHA atual
+  const file = await fetch(api, {
+    headers: { Authorization: `token ${GITHUB.token}` }
+  }).then(r => r.json());
+
+  // 2. commit novo conteúdo
+  await fetch(api, {
+    method: "PUT",
+    headers: {
+      Authorization: `token ${GITHUB.token}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message: `Atualização jogo ${new Date().toISOString().slice(0,10)}`,
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(json, null, 2)))),
+      sha: file.sha,
+      branch: GITHUB.branch
+    })
+  });
+
+  alert("Jogo publicado com sucesso!");
 }
