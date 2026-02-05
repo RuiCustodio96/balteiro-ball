@@ -71,6 +71,105 @@
     font-size: 1em;
     color: #333;
   }
+
+  /* Secção Gerar Equipas */
+#team-generator {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#team-generator h2 {
+  font-size: 2em;
+  color: #2a5d34;
+  margin-bottom: 15px;
+}
+
+/* Textarea jogadores */
+#player-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  resize: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Botão */
+#generate-teams {
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #2a5d34;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#generate-teams:hover {
+  background-color: #1f4325;
+}
+
+/* Output equipas */
+#teams-output {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+/* Cartões das equipas */
+.team-card {
+  flex: 1;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.team-card h3 {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+/* Cores por equipa */
+.team-card.pretos h3 {
+  border-color: #333;
+  color: #333;
+}
+
+.team-card.brancos h3 {
+  border-color: #2a5d34;
+  color: #2a5d34;
+}
+
+/* Lista jogadores */
+.team-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.team-card li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95em;
+}
+
+.team-card li:last-child {
+  border-bottom: none;
+}
+
+/* Total pontos */
+.team-card p {
+  margin-top: 10px;
+  font-weight: 600;
+}
 </style>
 
 
@@ -111,6 +210,34 @@
     </thead>
     <tbody></tbody>
   </table>
+
+<section id="team-generator">
+  <h2>Gerar Equipas</h2>
+<br>
+  <textarea
+    id="player-input"
+    rows="14"
+    placeholder="1 jogador por linha - nomes iguais à classificação"></textarea>
+
+<br>
+  <button id="generate-teams" onclick="gerarEquipas()">
+    Gerar Equipa
+  </button>
+
+  <div id="teams-output">
+    <div class="team-card pretos">
+      <h3>Pretos</h3>
+      <ul id="pretos-list"></ul>
+      <p>Total de Pontos: <span id="pretos-points">0</span></p>
+    </div>
+
+    <div class="team-card brancos">
+      <h3>Brancos</h3>
+      <ul id="brancos-list"></ul>
+      <p>Total de Pontos: <span id="brancos-points">0</span></p>
+    </div>
+  </div>
+</section>
 
   <script src="app/app.js"></script>
   <script id="dados" type="application/json" src="app/jogos.json"></script>
