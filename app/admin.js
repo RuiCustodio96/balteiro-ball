@@ -53,7 +53,7 @@ async function gerarJSON() {
   document.getElementById("output").value =
     JSON.stringify(json, null, 2);
 
-   commitJSON(JSON.stringify(json, null, 2));
+   commitJSON(json);
 }
 async function commitJSON(json) {
   const api = `https://api.github.com/repos/${GITHUB.owner}/${GITHUB.repo}/contents/${GITHUB.path}`;
