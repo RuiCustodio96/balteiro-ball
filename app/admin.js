@@ -1,5 +1,13 @@
 const HASH_NIF = "cbbdfec3ce2fed0f608e960e24893ff4a511b92da4db8c0ee108d6c23b75b797";
 
+const GITHUB = {
+  owner: "RuiCustodio96",
+  repo: "balteiro-ball",
+  path: "app/jogos.json",
+  branch: "main",
+  token: "ghp_xxxxxxxxxxxxxxxxx"
+};
+
 async function login() {
   const nif = document.getElementById("access").value;
   const hash = await sha256(nif);
