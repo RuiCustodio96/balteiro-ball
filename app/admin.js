@@ -86,7 +86,7 @@ async function commitJSON(json) {
     },
     body: JSON.stringify({
       message: "Atualização jogos",
-      content: btoa(unescape(encodeURIComponent(JSON.stringify(json, null, 2)))),
+      content: btoa(unescape(encodeURIComponent(document.getElementById("output").value))),
       sha: file.sha,
       branch: "main"
     })
