@@ -3,6 +3,7 @@ fetch("app/jogos.json")
   .then(data => {
     renderTeams(calcTeams(data.jogos));
     renderPlayers(calcPlayers(data));
+    renderGames(data.jogos);
   });
 
 const players = {};
@@ -92,8 +93,28 @@ function renderTeams(teams) {
 function renderPlayers(players) {
   const tbody = document.querySelector("#players tbody");
 
-  const sorted = Object.entries(players)
-    .sort((a, b) => b[1].P - a[1].P);
+const sorted = Object.entries(players)
+  .sort((a, b) => {
+    const pa = a[1];
+    const pb = b[1];
+
+    // 1. Pontos (desc)
+    if (pb.P !== pa.P) return pb.P - pa.P;
+
+    // 2. Vitórias (desc)
+    if (pb.V !== pa.V) return pb.V - pa.V;
+ 
+    // 3. Derrotas (asc) → menos derrotas fica acima
+    //TODO: Rever
+    //if (pa.D !== pb.D) return pa.D - pb.D;
+
+   
+    // 4. Jogos (desc) opcional – quem jogou mais fica acima
+    if (pb.J !== pa.J) return pb.J - pa.J;
+
+    // 5. Nome (estável)
+    return a[0].localeCompare(b[0]);
+  });
 
   sorted.forEach(([name, p], i) => {
     tbody.innerHTML += `
@@ -198,4 +219,21 @@ brancos.forEach(j => {
 
   document.getElementById("pretos-points").textContent = ptsA;
   document.getElementById("brancos-points").textContent = ptsB;
+}
+
+function renderGames(jogos){
+  const tbody = document.querySelector("#games tbody");
+
+  jogos
+    .sort((a,b)=> new Date(b.data)-new Date(a.data))
+    .forEach(j=>{
+      tbody.innerHTML += `
+        <tr>
+          <td>${j.data}</td>
+          <td>${j.branco}</td>
+          <td>vs</td>
+          <td>${j.preto}</td>
+        </tr>
+      `;
+    });
 }
