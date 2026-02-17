@@ -9,6 +9,11 @@
       "data": "2026-02-10",
       "branco": 12,
       "preto": 9
+    },
+    {
+      "data": "2026-02-17",
+      "branco": 17,
+      "preto": 16
     }
   ],
   "presencas": [
@@ -150,6 +155,76 @@
     {
       "data": "2026-02-10",
       "jogador": "Ayoub",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Bless",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Melo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Miguel (amigo Melo)",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Carlos",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Amigo Carlos",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Pires",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Steven",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Diogo (amigo Ângelo)",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Ângelo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "André",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Miguel (amigo Ângelo)",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-02-17",
+      "jogador": "Gonçalo V",
       "equipa": "Preto"
     }
   ]
