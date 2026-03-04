@@ -19,6 +19,11 @@
       "data": "2026-02-24",
       "branco": 5,
       "preto": 8
+    },
+    {
+      "data": "2026-03-03",
+      "branco": 9,
+      "preto": 10
     }
   ],
   "presencas": [
@@ -300,6 +305,76 @@
     {
       "data": "2026-02-24",
       "jogador": "Miguel (amigo Ângelo)",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Ângelo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Miguel (Amigo Ângelo)",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Diogo (Amigo Ângelo)",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Daniel",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Bless",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Paulo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Steven",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Lójico",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Rochinha",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Pires",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Custódio",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-03",
+      "jogador": "Ricardo",
       "equipa": "Preto"
     }
   ]
