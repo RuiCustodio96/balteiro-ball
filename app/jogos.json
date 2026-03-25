@@ -34,6 +34,11 @@
       "data": "2026-03-17",
       "branco": 11,
       "preto": 13
+    },
+    {
+      "data": "2026-03-24",
+      "branco": 8,
+      "preto": 10
     }
   ],
   "presencas": [
@@ -524,6 +529,76 @@
     },
     {
       "data": "2026-03-17",
+      "jogador": "Bless",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Neves",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Ricardo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Pires",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Coutinho",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Daniel",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Steven",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Ângelo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Miguel",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Diogo Araújo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
+      "jogador": "Marco",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-03-24",
       "jogador": "Bless",
       "equipa": "Preto"
     }
