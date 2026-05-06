@@ -39,6 +39,11 @@
       "data": "2026-03-24",
       "branco": 8,
       "preto": 10
+    },
+    {
+      "data": "",
+      "branco": 0,
+      "preto": 2
     }
   ],
   "presencas": [
@@ -600,6 +605,76 @@
     {
       "data": "2026-03-24",
       "jogador": "Bless",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "André",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Bless",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Simão",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Cambra",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Leandro",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "",
+      "jogador": "Ângelo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "Miguel",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "Diogo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "João Taveira",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "Primo Ângelo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "Fábio Rocha",
+      "equipa": "Preto"
+    },
+    {
+      "data": "",
+      "jogador": "Amigo Diogo",
       "equipa": "Preto"
     }
   ]
