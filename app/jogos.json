@@ -46,9 +46,9 @@
       "preto": 2
     },
     {
-      "data": "2026-04-28",
-      "branco": 0,
-      "preto": 2
+      "data": "2026-05-05",
+      "branco": 14,
+      "preto": 9
     }
   ],
   "presencas": [
@@ -683,73 +683,73 @@
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Ph",
+      "data": "2026-05-05",
+      "jogador": "Custódio",
       "equipa": "Branco"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Cambra",
-      "equipa": "Branco"
-    },
-    {
-      "data": "2026-04-28",
-      "jogador": "André",
-      "equipa": "Branco"
-    },
-    {
-      "data": "2026-04-28",
-      "jogador": "Simão",
-      "equipa": "Branco"
-    },
-    {
-      "data": "2026-04-28",
-      "jogador": "Afonso",
-      "equipa": "Branco"
-    },
-    {
-      "data": "2026-04-28",
-      "jogador": "Miguel",
-      "equipa": "Branco"
-    },
-    {
-      "data": "2026-04-28",
+      "data": "2026-05-05",
       "jogador": "Lau",
       "equipa": "Branco"
     },
     {
-      "data": "2026-04-28",
+      "data": "2026-05-05",
+      "jogador": "Pires",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-05",
+      "jogador": "Cambra",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-05",
       "jogador": "Neves",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-05",
+      "jogador": "Martim",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-05",
+      "jogador": "Gonçalo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-05",
+      "jogador": "Ph",
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Lucas",
+      "data": "2026-05-05",
+      "jogador": "Simão",
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Xavi",
+      "data": "2026-05-05",
+      "jogador": "Ângelo",
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Acácio",
+      "data": "2026-05-05",
+      "jogador": "Diogo Araújo",
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Renato Pereira",
+      "data": "2026-05-05",
+      "jogador": "Sousa",
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Bless",
+      "data": "2026-05-05",
+      "jogador": "Miguel",
       "equipa": "Preto"
     },
     {
-      "data": "2026-04-28",
-      "jogador": "Custódio",
+      "data": "2026-05-05",
+      "jogador": "Carlos",
       "equipa": "Preto"
     }
   ]
