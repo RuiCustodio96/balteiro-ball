@@ -46,6 +46,21 @@
       "preto": 2
     },
     {
+      "data": "2026-04-07",
+      "branco": 0,
+      "preto": 2
+    },
+    {
+      "data": "2026-04-14",
+      "branco": 0,
+      "preto": 2
+    },
+    {
+      "data": "2026-04-28",
+      "branco": 0,
+      "preto": 2
+    },
+    {
       "data": "2026-05-05",
       "branco": 14,
       "preto": 9
@@ -613,73 +628,283 @@
       "equipa": "Preto"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "André",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Bless",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Simão",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Cambra",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Custódio",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Leandro",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Lau",
       "equipa": "Branco"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Ângelo",
       "equipa": "Preto"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Miguel",
       "equipa": "Preto"
     },
     {
-      "data": "",
-      "jogador": "Diogo",
+      "data": "2026-03-31",
+      "jogador": "Diogo Araújo",
       "equipa": "Preto"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "João Taveira",
       "equipa": "Preto"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Primo Ângelo",
       "equipa": "Preto"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Fábio Rocha",
       "equipa": "Preto"
     },
     {
-      "data": "",
+      "data": "2026-03-31",
       "jogador": "Amigo Diogo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Neves",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "André",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Martim",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Daniel (amigo Neves)",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Lucas",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Amigo Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Cambra",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Diogo Araújo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Miguel",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Tiago",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Lau",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "XP",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Ângelo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Ângelo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Diogo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Miguel",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Marco",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Francisco",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Bless",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Lójico",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Steven",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Carlos",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Melo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Tiago Melo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-14",
+      "jogador": "Neves",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Ph",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Cambra",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "André",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Simão",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Afonso",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Miguel",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Neves",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Lucas",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Xavi",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Acácio",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Renato Pereira",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Bless",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-28",
+      "jogador": "Custódio",
       "equipa": "Preto"
     },
     {
