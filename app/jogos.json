@@ -44,6 +44,11 @@
       "data": "2026-03-31",
       "branco": 0,
       "preto": 2
+    },
+    {
+      "data": "2026-04-07",
+      "branco": 0,
+      "preto": 2
     }
   ],
   "presencas": [
@@ -675,6 +680,76 @@
     {
       "data": "",
       "jogador": "Amigo Diogo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Neves",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "André",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Martim",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Daniel (amigo Neves)",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Lucas",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Amigo Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Cambra",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Diogo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Miguel",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Simão",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Tiago",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Lau",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "XP",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-04-07",
+      "jogador": "Ângelo",
       "equipa": "Preto"
     }
   ]
