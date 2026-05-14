@@ -64,6 +64,11 @@
       "data": "2026-05-05",
       "branco": 14,
       "preto": 9
+    },
+    {
+      "data": "2026-05-12",
+      "branco": 7,
+      "preto": 8
     }
   ],
   "presencas": [
@@ -975,6 +980,76 @@
     {
       "data": "2026-05-05",
       "jogador": "Carlos",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Ângelo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Diogo Araújo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Sousa",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Gonçalo V",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "João Taveira",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Carlos",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Ph",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Lójico",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Coutinho",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Cambra",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Gonçalo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "Pires",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-05-12",
+      "jogador": "André",
       "equipa": "Preto"
     }
   ]
