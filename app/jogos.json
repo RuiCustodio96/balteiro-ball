@@ -94,6 +94,11 @@
       "data": "2026-06-30",
       "branco": 9,
       "preto": 10
+    },
+    {
+      "data": "2026-07-07",
+      "branco": 10,
+      "preto": 10
     }
   ],
   "presencas": [
@@ -1425,6 +1430,76 @@
     {
       "data": "2026-06-30",
       "jogador": "Diogo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Bless",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Gonçalo V",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Gonçalo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Ângelo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Diogo Araújo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Diogo",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Silva",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Lojico",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Ph",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Nail",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Escaleira",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-07-07",
+      "jogador": "Miguel",
       "equipa": "Preto"
     }
   ]
