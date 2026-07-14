@@ -89,6 +89,11 @@
       "data": "2026-06-16",
       "branco": 6,
       "preto": 14
+    },
+    {
+      "data": "2026-06-30",
+      "branco": 9,
+      "preto": 10
     }
   ],
   "presencas": [
@@ -1350,6 +1355,76 @@
     {
       "data": "2026-06-16",
       "jogador": "Bless",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Custódio",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Ângelo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Diogo Araújo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Miguel",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Gonçalo V",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Lau",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Gonçalo",
+      "equipa": "Branco"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Ph",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Cambra",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Bless",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Steven",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "André",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Coutinho",
+      "equipa": "Preto"
+    },
+    {
+      "data": "2026-06-30",
+      "jogador": "Diogo",
       "equipa": "Preto"
     }
   ]
